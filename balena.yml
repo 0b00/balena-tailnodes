@@ -1,0 +1,12 @@
+name: tailscale
+description: Run a Tailscale node on balena with Glances monitoring!
+version: 1.78.3
+type: sw.block
+data:
+  defaultDeviceType: raspberrypi3
+  supportedDeviceTypes:
+    - raspberrypi0-2w-64
+    - raspberrypi3
+    - raspberrypi3-64
+    - raspberrypi4-64
+    - intel-nuc
